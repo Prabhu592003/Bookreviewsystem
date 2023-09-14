@@ -1,0 +1,22 @@
+.outerr{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#9bbbe1;
+
+   
+    
+}
+.inner{
+     width:30%;
+    height: 300px;
+     margin-top: 30px;
+   
+    background-color:#ffffff;
+    padding:20px;
+    border-radius: 20px;
+    
+} 
+ 

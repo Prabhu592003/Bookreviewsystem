@@ -1,0 +1,162 @@
+/* @media (min-width: 600px) { }*/
+    .layout{
+      
+      display: flex;
+      
+    
+    
+        
+    }
+    .sidebar{
+      
+  
+         width: 200px;
+       
+      
+
+    }
+    .outlet{
+     width: 100%;
+     margin-left: 200px;
+  
+         
+        
+    }
+  
+
+
+.sidebar {
+  
+    background-color: #002C5F;
+
+ 
+    position: fixed;
+    
+   
+  }
+.buttonnav{
+  background-color: #002C5F;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  border-style: none;
+  text-align: start;
+  padding: 10px 20px;
+ 
+}
+  /* .togglebutton{
+    width: 100%;
+     height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 15px;
+
+  } */
+  .buttonside{
+   
+    background-color: #002C5F;
+   border-radius: 10px;
+   width: 40px;
+   height:40px;
+ 
+   
+  }
+  .linksidebar{
+    text-decoration: none;
+    color: #EDEDED;
+  }
+  .hamb-icon {
+   
+   color: azure;
+    background-color: #002C5F;
+  height: 100%;
+  width: 100%;
+    border: none;
+    cursor: pointer;
+  }
+  .sidebarlogo{
+    height: 10vh;
+    width: 100%;
+  }
+  .s1f1f1{
+    padding-top: 20px;
+    height: 70vh;
+    width: 100%;
+    background-color: #002C5F;
+    border-style: solid;
+    border-color:#FF6F00;
+    border-width: 4px 0px;
+  }
+  .s1f1h1{
+     font-family: poppins;
+      width: 100%;
+      font-size: 18px;
+      color:#EDEDED;
+       text-decoration: none;
+     padding: 0px;
+      cursor: pointer;
+      font-weight: 400;
+
+  }
+  .s1f1h1:hover{
+    
+    opacity: 0.5;
+  }
+ 
+  .h1icon{
+    color:#EDEDED;
+    margin-right: 10px;
+   font-size: 20px;
+   padding-bottom: 3px;
+    
+  }
+  .s1f1f2{
+    height: 30vh;
+    width: 100%;
+    background-color: #002C5F;
+    padding-top: 10%;
+  }
+ .s1f1{
+     width: 100%;
+     height: 90vh;
+    
+ }
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  .sidebar-nav {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Media queries for responsiveness */
+  /* @media (max-width: 600px) {
+    .s1f1f1{
+      height: 60vh;
+      width: 100%;
+      
+    }
+    .s1f1f2{
+      height: 40vh;
+      width: 100%;
+      
+    }
+    .sidebar {
+      transform: translateX(-100%);
+    }
+  
+    .sidebar.open {
+      transform: translateX(0);
+    }
+    .sidebar{
+        position: static;
+    }
+  }
+  @media (min-width: 600px) {
+    .togglebutton{
+      display: none;
+    }
+  } */
